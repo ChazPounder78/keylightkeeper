@@ -53,6 +53,13 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 Turning the switch off (or uninstalling) stops the behaviour entirely.
 
+## Bug Fixes & Improvements
+
+Version 1.0.1 (current): 
+- Improved error handling for LED path validation
+- Better resource management and cleanup
+- Enhanced logging for debugging issues
+
 ## Magisk module alternative
 
 `magisk-module/` contains a standalone Magisk module that does the same thing without an
