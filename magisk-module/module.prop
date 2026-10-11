@@ -1,0 +1,6 @@
+id=keylight-stayon
+name=KeyBacklight StayOn
+version=v1.0
+versionCode=1
+author=opencode
+description=Forces the button-backlight LED to stay at max brightness at all times.

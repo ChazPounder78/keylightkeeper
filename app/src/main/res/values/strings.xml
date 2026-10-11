@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KeyLight Keeper</string>
+    <string name="app_desc">Keeps the hardware key backlight on while the screen is on.</string>
+    <string name="toggle_label">Keep key backlight on with screen</string>
+    <string name="status_on">Status: ON — keys stay lit while the screen is on.</string>
+    <string name="status_off">Status: OFF — normal backlight behaviour.</string>
+    <string name="root_note">Requires root (Magisk). The first time you enable it, grant the Superuser request. Disabling or uninstalling stops everything.</string>
+    <string name="notif_title">Key backlight control</string>
+    <string name="notif_text">Keeping the key backlight on while the screen is on</string>
+    <string name="channel_name">KeyLight Keeper</string>
+    <string name="channel_desc">Keeps the hardware key backlight on while the screen is on</string>
+</resources>
