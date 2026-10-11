@@ -6,7 +6,8 @@ MediaTek keypad driver that insists on switching the keys off after a timeout.
 
 Built for a MediaTek MT6765 board (`k62v1_64_bsp`) running a GSI, where neither
 `settings put system button_key_light_timeout -1` nor any framework setting has any effect:
-the LED is driven purely by the kernel keypad driver.
+the LED is driven purely by the kernel keypad driver. This was originally developed for 
+custom Android builds such as Lagom Phone (a development/test device).
 
 ## How it works
 
