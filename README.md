@@ -7,7 +7,7 @@ MediaTek keypad driver that insists on switching the keys off after a timeout.
 Built for a MediaTek MT6765 board (`k62v1_64_bsp`) running a GSI, where neither
 `settings put system button_key_light_timeout -1` nor any framework setting has any effect:
 the LED is driven purely by the kernel keypad driver. This was originally developed for 
-custom Android builds such as Lagom Phone (a development/test device).
+custom Android builds such as Lagom Phone (a development/test device) and other MediaTek-based custom ROMs.
 
 ## ⚠️ WARNING AND DISCLAIMER
 
@@ -16,6 +16,15 @@ custom Android builds such as Lagom Phone (a development/test device).
 This app directly manipulates system-level hardware components (LED backlight) and uses root shell commands to modify kernel driver behavior. While tested on compatible devices, there are no guarantees of safety or stability.
 
 The author(s) take no responsibility for any damage caused to your device, data loss, or unexpected behavior resulting from using this software. 
+
+## Device Information
+
+This application was specifically developed and tested for:
+- **Lagom Phone** - A custom Android phone project 
+- MediaTek MT6765 chipset (`k62v1_64_bsp` board)
+- Custom Android builds and GSI (Generic System Image) environments
+
+The hardware key backlight control works by directly accessing the LED path at `/sys/class/leds/button-backlight/brightness`.
 
 ## How it works
 
