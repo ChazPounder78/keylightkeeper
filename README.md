@@ -9,6 +9,14 @@ Built for a MediaTek MT6765 board (`k62v1_64_bsp`) running a GSI, where neither
 the LED is driven purely by the kernel keypad driver. This was originally developed for 
 custom Android builds such as Lagom Phone (a development/test device).
 
+## ⚠️ WARNING AND DISCLAIMER
+
+**This is experimental software that requires root access and can potentially harm your device. Use at your own risk.**
+
+This app directly manipulates system-level hardware components (LED backlight) and uses root shell commands to modify kernel driver behavior. While tested on compatible devices, there are no guarantees of safety or stability.
+
+The author(s) take no responsibility for any damage caused to your device, data loss, or unexpected behavior resulting from using this software. 
+
 ## How it works
 
 The LED lives at:
